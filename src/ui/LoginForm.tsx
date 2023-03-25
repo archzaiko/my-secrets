@@ -7,10 +7,7 @@ export function LoginForm(): React.ReactElement {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="p-8 rounded shadow flex flex-col gap-y-4"
-    >
+    <form onSubmit={handleSubmit} className="flex flex-col gap-y-4">
       <div className="flex justify-between gap-x-4">
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" />

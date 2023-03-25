@@ -20,7 +20,7 @@
     "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
+      "@components/*": ["./src/ui/*"],
       "@api/core": ["./src/api/core/*"]
     }
   },
